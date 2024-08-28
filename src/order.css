@@ -1,0 +1,101 @@
+.navbar{
+    display: flex;
+    height: fit-content ;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 2px rgb(169, 168, 168) ;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 45px;
+    margin-top: 20px;
+    max-width: 90%;
+    padding: 10px;
+}
+.row1{
+    display: flex;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.Revenue{
+    box-shadow: 1px 1px 3px 1px rgb(94, 94, 94);
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px 10px 10px 10px;
+}
+.orders{
+    box-shadow: 1px 1px 3px 1px rgb(94, 94, 94);
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px 10px 10px 10px;
+    height: 100px;
+}
+.Dine{
+    box-shadow: 1px 1px 3px 1px rgb(94, 94, 94);
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px 10px 10px 10px;
+    height: 100px;
+}
+.Takeaway{
+    box-shadow: 1px 1px 3px 1px rgb(94, 94, 94);
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px 10px 10px 10px;
+    height: 100px; 
+}
+#up{
+    color: green;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+#down{
+    color: red;
+    padding-left: 30px;
+    padding-top:15px;
+}
+#pp{
+    margin-top: -10px;
+}
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar > div {
+      flex: 1 1 100%; 
+      margin: 5px 0;
+    }
+  
+    .row1 h2 {
+      font-size: 1rem;
+    }
+  
+    .row1 p {
+      font-size: 0.9rem;
+    }
+  
+    .row2 p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .row1 h2 {
+      font-size: 0.9rem;
+    }
+  
+    .row1 p {
+      font-size: 0.8rem;
+    }
+  
+    .row2 p {
+      font-size: 0.9rem;
+    }
+  
+    .navbar > div {
+      padding: 10px;
+    }
+  }
